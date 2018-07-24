@@ -1,23 +1,29 @@
-# Windows thumbnail cache files
-Thumbs.db
-ehthumbs.db
-ehthumbs_vista.db
+.DS_Store
 
-# Folder config file
-Desktop.ini
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+composer.lock
 
-# Windows shortcuts
-*.lnk
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+/vendor/
 
-# =========================
-# Operating System Files
-# =========================
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
